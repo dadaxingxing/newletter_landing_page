@@ -1,10 +1,25 @@
 
+.outer_container {
+    display: flex;
+    height: 95vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.inner_container {
+    display: flex;
+    flex-direction: column;
+
+}
 
 .header {
     font-family: 'Roboto', Helvetica;
     font-weight: 500;
     font-size: 80px;
     line-height: 69%;
+    margin-bottom: 20px;
 }
 
 .viral {
@@ -15,4 +30,15 @@
 
 .paragraph {
     font-weight: 500;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+
+.sub_button {
+
+}
+
+
+.mock_up {
+
 }
