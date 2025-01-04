@@ -5,7 +5,7 @@ import BeehiveEmbed from './component/button.jsx';
 import MockUp from './assets/phone_mockup.svg';
 
 function App() {
-
+  // main component file
   return (
     <div className='outer_container'>
       <div className='inner_container'>
